@@ -1,0 +1,119 @@
+/* This is a CSS file for styling a web page */
+/* It contains styles for the body, headings, and paragraphs */
+
+:root{
+    --slate-300: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(210, 20%, 20%);
+    --white: hsl(0, 0%, 100%);
+    --font-family: 'Outfit', sans-serif;
+}
+
+/* Body */
+
+body{
+    text-align: center;
+    margin: 0;
+    height: 100%; /* Assicura che il body prenda l'intera altezza della viewport */
+}
+
+/* Colors */
+
+.slate-300 {
+    color:var(--slate-300);
+}
+
+.slate-500 {
+    color:hsl(216, 15%, 48%)
+}
+
+.slate-900 {
+    color:hsl(210, 20%, 20%)
+}
+
+.white {
+    color: hsl(0, 0%, 100)
+}
+
+
+/* Tipography */
+
+
+.outfit-bold {
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0px;
+}
+
+.outfit-regular {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 0.20px;
+}
+
+/* corner radius */
+.corner-radius-20 {
+    border-radius: 20px;
+}
+.corner-radius-10 {
+    border-radius: 10px;
+}
+
+
+/* blocks */
+.container  {
+    background-color: var(--slate-300);
+    height: 100vh; /* Ensures the body takes the full viewport height */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    display: flex;
+    justify-content: center;  /* centra orizzontalmente */
+    align-items: center;      /* centra verticalmente */
+}
+
+.card 
+{   
+    background-color: var(--white);
+    height: 475px;
+    width: 320px; /* Converted from 320px to rem */   
+    /*display: flex; /* Enables flexbox */
+    position: fixed; /* Fixes the position of the card */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    /* height: 100vh; /* Ensures the body takes the full viewport height */
+    margin: 0; /* Removes default margin */
+    box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.2); /*, 0px 4px 20px 0px rgba(0, 0, 0, 0.14), 0px 2px 25px 0px rgba(0, 0, 0, 0.12);*/
+
+
+}
+
+.qr-code 
+{
+    height: auto;
+    width: 20rem;
+}
+
+/* padding */
+.padding-40 {
+    padding: 40pc;
+}
+.padding-24 {
+    padding: 24px;
+}
+.padding-16 {
+    padding: 16px;
+}
+
+.padding-x-16{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
